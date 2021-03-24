@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
 header {
-    background-color: #7C5E99;
+    background-color: #371272;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#button {
+    display: inline-block;
+    background-color: #2F80ED;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0px #000;
 }
