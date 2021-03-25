@@ -1,28 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
 
 header {
-    background-color: #371272;
+  display: flex;
+  justify-content: space-between;
+  background-color: #371272;
+  border-bottom: 10px solid #000;
+  padding: 10px 20px;
 }
 
 nav {
-    text-align: right;
+  text-align: right;
 }
 
 a {
-    color: #FFFFFF;
-    font-size: 20px;
-    font-family: "Fira Code";
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
+  display: inline-flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Fira Code";
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+a::before {
+  content: "";
+  background-color: #2d9cdb;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
 }
 
 #button {
-    display: inline-block;
-    background-color: #2F80ED;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 5px 5px 0px #000;
+  display: inline-block;
+  background-color: #2f80ed;
+  padding: 18px 20px;
+  box-shadow: 5px 5px 0px #000;
+  margin-right: 0;
 }
