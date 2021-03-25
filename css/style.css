@@ -37,4 +37,11 @@ a::before {
   padding: 18px 20px;
   box-shadow: 5px 5px 0px #000;
   margin-right: 0;
+  transition: 0.8s;
+}
+
+#button:hover {
+  box-shadow: 5px 5px transparent;
+  text-shadow: 3px 3px #000;
+  transition: 0.6s;
 }
