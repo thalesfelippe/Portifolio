@@ -5,6 +5,9 @@
     box-shadow: 5px 5px 0px #000;
     margin-right: 0;
     transition: 0.3s linear;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
   }
   
   .button:hover {
