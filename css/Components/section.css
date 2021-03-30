@@ -8,3 +8,7 @@
 .section .main-tittle {
     margin-bottom: 60px;
 }
+
+.section.-bgBlack {
+    background-color: #3A4042;
+}
