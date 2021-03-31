@@ -52,5 +52,5 @@
 .main-carousel .elements {
   display: flex;
   justify-content: center;
-  width: 100%;
+  transition: transform 100ms ease-in-out;
 }
