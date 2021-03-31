@@ -24,6 +24,9 @@
         <link rel="stylesheet" href="./css/Components/button-arrow.css">
         <link rel="stylesheet" href="./css/Components/node-card.css">
         <link rel="stylesheet" href="./css/Components/main-carousel.css">
+        <link rel="stylesheet" href="./css/Components/main-footer.css">
+        <link rel="stylesheet" href="./css/Components/main-label.css">
+        <link rel="stylesheet" href="./css/Components/main-input.css">
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -113,10 +116,6 @@
 
         <section class="main-section">
             <h2 class="main-tittle -second">About</h2>
-            <p class="main-description">
-                Hoje como Programador Junior pela ArtLab, Thales já trabalhou como Caixa na rede FortAtacadista migrando para aréa de Tecnologia, busca se aperfeiçoar como dev FrontEnd estudando por conta própria e conforme trabalha. Thales também  quando não está jogando Online ou trocando ideias com amigos, busca criar projetos pessoais.
-            </p>
-
             <section class="main-carousel">
                 <button class="button-arrow -left"><span class="content">Left</span></button>
 
@@ -133,7 +132,31 @@
 
                 <button class="button-arrow -right"><span class="content">Right</span></button>
             </section>
+            <p class="main-description">
+                Today Junior Programmer at ArtLab, Thales has worked as a cashier in the FortAtacadista network, migrating to the Technology field, seeking to improve himself as a FrontEnd dev studying on his own and as he works. Thales also when not playing online or exchanging ideas with friends, seeks to create personal projects.            </p>
         </section>
+
+        <form>
+            <label class="main-label" for="name">Name</label>
+            <input class="main-input" id="name" type="text">
+
+            <label class="main-label" for="email">Email</label>
+            <input class="main-input" id="email" type="email">
+
+            <label class="main-label" for="message">Message</label>
+            <textarea class="main-input -textarea" id="message"></textarea>
+
+            <button class="main-button" type="submit">Send</button>
+        </form>
+
+        <footer class="main-footer">
+            <a class="action" href="https://www.linkedin.com/in/thales-felippe-9205761bb/" target="_blank">
+                <img src="./assets/Footer/linkedin.png" alt="Logo linkedin">
+            </a>
+            <a class="action" href="https://www.instagram.com/thales.flp/" target="_blank">
+                <img src="./assets/Footer/instagram.png" alt="Logo instagram">
+            </a>
+        </footer>
 
         <script src="./js/components/main-carousel.js"></script>
     </body>
