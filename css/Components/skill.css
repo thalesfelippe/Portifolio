@@ -1,22 +1,22 @@
 .skill {
-    display: flex;
-    align-items: center;
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 25px;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 25px;
+  color: #fff;
 }
 
 .skill .icon {
-    margin-right: 25px;
-    width: 90px;
+  margin-right: 25px;
+  width: 90px;
 }
 
 .skill .right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .skill .tittle {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
