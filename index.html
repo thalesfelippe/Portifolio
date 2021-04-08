@@ -7,26 +7,7 @@
 
         <link rel="icon" href="./assets/img/favicon.png">
         <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/Components/main-button.css">
-        <link rel="stylesheet" href="./css/Components/main-tittle.css">
-        <link rel="stylesheet" href="./css/Components/main-subtittle.css">
-        <link rel="stylesheet" href="./css/Components/main-box.css">
-        <link rel="stylesheet" href="./css/Components/main-action.css">
-        <link rel="stylesheet" href="./css/Components/main-header.css">
-        <link rel="stylesheet" href="./css/Components/main-banner.css">
-        <link rel="stylesheet" href="./css/Components/main-section.css">
-        <link rel="stylesheet" href="./css/Components/skill.css">
-        <link rel="stylesheet" href="./css/Components/progress-bar.css">
-        <link rel="stylesheet" href="./css/Components/wrapper-skill.css">
-        <link rel="stylesheet" href="./css/Components/card-project.css">
-        <link rel="stylesheet" href="./css/Components/wrapper-card.css">
-        <link rel="stylesheet" href="./css/Components/main-description.css">
-        <link rel="stylesheet" href="./css/Components/button-arrow.css">
-        <link rel="stylesheet" href="./css/Components/node-card.css">
-        <link rel="stylesheet" href="./css/Components/main-carousel.css">
-        <link rel="stylesheet" href="./css/Components/main-footer.css">
-        <link rel="stylesheet" href="./css/Components/main-label.css">
-        <link rel="stylesheet" href="./css/Components/main-input.css">
+        <link rel="stylesheet" href="./css/global.css">
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -136,17 +117,20 @@
                 Today Junior Programmer at ArtLab, Thales has worked as a cashier in the FortAtacadista network, migrating to the Technology field, seeking to improve himself as a FrontEnd dev studying on his own and as he works. Thales also when not playing online or exchanging ideas with friends, seeks to create personal projects.            </p>
         </section>
 
-        <form>
+        <form class="main-form">
+
+            <legend class="main-tittle -second">Contact</legend>
+
             <label class="main-label" for="name">Name</label>
-            <input class="main-input" id="name" type="text">
+            <input class="main-input" id="name" type="text" required>
 
             <label class="main-label" for="email">Email</label>
-            <input class="main-input" id="email" type="email">
+            <input class="main-input" id="email" type="email" required>
 
             <label class="main-label" for="message">Message</label>
-            <textarea class="main-input -textarea" id="message"></textarea>
+            <textarea class="main-input -textarea" id="message" required></textarea>
 
-            <button class="main-button" type="submit">Send</button>
+            <button class="main-button -full" type="submit">Send</button>
         </form>
 
         <footer class="main-footer">

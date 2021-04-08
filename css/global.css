@@ -1,0 +1,433 @@
+/* MAIN-HEADER */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #371272;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+  }
+
+/* MAIN-ACTION */
+
+.main-action {
+    display: inline-flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+  .main-action::before {
+    content: "";
+    background-color: #2d9cdb;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+  }
+
+/* MAIN-BANNER */
+
+.main-banner {
+    box-sizing: border-box;
+    background-image: url("/assets/img/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    border-bottom: 10px solid #000;
+    padding-top: 115px;
+    padding-left: 90px;
+  }
+  .main-banner .main-box {
+    margin-bottom: 40px;
+  }
+  
+  .main-banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+  }
+  
+  .main-banner .navigation {
+    display: flex;
+    justify-content: space-around;
+  }
+
+/* MAIN-BOX */
+
+.main-box {
+    display: inline-block;
+    background-color: #3a4042;
+    width: 630px;
+    box-shadow: 10px 10px 0 #000;
+    text-align: center;
+    padding: 42px 44px;
+  }
+  
+  .main-box .main-tittle {
+    margin-bottom: 30px;
+  }
+
+/* MAIN-TITTLE */
+
+.main-tittle {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 40px;
+    color: #2d9cdb;
+    text-shadow: 4px 4px 0 #000;
+  }
+  
+  .main-tittle.-second {
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+  }
+
+/* MAIN-SUBTITTLE */
+
+.main-subtittle {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 0 #000;
+    color: #fff;
+  }
+
+/* MAIN-BUTTON */
+
+.main-button {
+    display: inline-block;
+    background-color: #2f80ed;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000;
+    margin-right: 0;
+    transition: 0.3s linear;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .main-button:hover {
+    box-shadow: 5px 5px transparent;
+    text-shadow: 2px 2px #000;
+  }
+  
+  .main-button.-full {
+    width: 100%;
+  }
+
+/* MAIN-SECTION */
+
+.main-section {
+    background-color: #371272;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #7c5e99;
+  }
+  
+  .main-section .main-tittle {
+    margin-bottom: 60px;
+  }
+  
+  .main-section.-bgBlack {
+    background-color: #3a4042;
+  }
+
+/* WRAPPER-SKILL */
+
+.wrapper-skill {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .wrapper-skill .skill {
+    width: 430px;
+    margin-bottom: 40px;
+  }
+  
+  .wrapper-skill .skill:nth-child(odd) {
+    margin-right: 100px;
+  }
+  
+  .wrapper-skill .progress-bar {
+    width: 320px;
+  }
+
+/* SKILL */
+
+.skill {
+    display: flex;
+    align-items: center;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+    color: #fff;
+  }
+  
+  .skill .icon {
+    margin-right: 25px;
+    width: 90px;
+  }
+  
+  .skill .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .skill .tittle {
+    margin-bottom: 15px;
+  }
+
+/* PROGRESS-BAR */
+
+.progress-bar {
+    box-sizing: border-box;
+    border: 5px solid #000;
+    height: 40px;
+  }
+  
+  .progress-bar::-webkit-progress-value {
+    background-color: #2d9cdb;
+  }
+  
+  .progress-bar::-moz-progress-value {
+    background-color: #2d9cdb;
+  }
+  
+  .progress-bar::-webkit-progress-bar {
+    background-color: #fff;
+  }
+  
+  .progress-bar::-moz-progress-bar {
+    background-color: #fff;
+  }
+
+
+/* WRAPPER-CARD */
+
+.wrapper-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* CARD-PROJECT */
+
+.card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f80ed;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0 #fff;
+  }
+
+/* MAIN-CAROUSEL */
+
+.main-carousel {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .main-carousel::after {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    left: 50px;
+    top: 35px;
+    height: 6px;
+    width: calc(100% - 100px);
+    background-color: #000;
+  }
+  
+  .main-carousel::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    border: 3px dashed #000;
+    left: 0;
+    top: 35px;
+    width: 100%;
+  }
+  
+  .main-carousel .button-arrow {
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(50%);
+  }
+  
+  .main-carousel .button-arrow.-left {
+    left: 15px;
+  }
+  
+  .main-carousel .button-arrow.-right {
+    right: 15px;
+  }
+  
+  .main-carousel .items {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .main-carousel .elements {
+    display: flex;
+    justify-content: center;
+    transition: transform 100ms ease-in-out;
+  }
+
+/* BUTTON-ARROW */
+
+.button-arrow {
+    background-color: #2f80ed;
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 0 #000;
+    cursor: pointer;
+  }
+  
+  .button-arrow .content {
+    display: none;
+  }
+  
+  .button-arrow::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-left: 28px solid #fff;
+    transform: translateX(5px);
+  }
+  
+  .button-arrow.-left::before {
+    transform: rotate(180deg) translatex(12px);
+  }
+
+
+/* NODE-CARD */
+
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .node-card::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    height: 0px;
+    width: 40px;
+    border: 3px dashed #000;
+    transform: rotate(90deg) translateX(-38%);
+    bottom: 140px;
+  }
+  
+  .node-card .tittle {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+    font-weight: 400px;
+    color: #2f80ed;
+    margin-bottom: 50px;
+  }
+  
+  .node-card .logo {
+    display: flex;
+    align-items: center;
+    background-color: #ededed;
+    width: 155px;
+    height: 125px;
+    border: 5px solid #000;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-top: 5px;
+  }
+
+/* MAIN-DESCRIPTION */
+
+.main-description {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300px;
+    line-height: 1.3;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+/* MAIN-FORM */
+
+.main-form {
+    padding: 50px 40px;
+}
+
+.main-form .main-tittle {
+    margin-bottom: 50px;
+}
+
+.main-form .main-input {
+    margin-bottom: 20px;
+}
+
+.main-form .main-input.-textarea {
+    margin-bottom: 40px
+}
+
+/* MAIN-LABEL */
+
+form {
+    background-color: #3A4042;
+}
+
+.main-label {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+/* MAIN-INPUT */
+
+.main-input {
+    box-sizing: border-box;
+    border: 5px solid #000;
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.main-input.-textarea {
+    height: 320px;
+}
+
+/* MAIN-FOOTER */
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main-footer .action {
+    margin-right: 20px;
+    margin-left: 20px;
+}
