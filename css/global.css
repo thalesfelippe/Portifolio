@@ -212,8 +212,7 @@
 
 .wrapper-card {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
   }
 
 /* CARD-PROJECT */
@@ -227,6 +226,22 @@
     height: 280px;
     box-shadow: 10px 10px 0 #fff;
   }
+
+.card-project.-one {
+  background-color: #1A48DB;
+}
+
+.card-project.-two {
+  background-color: #298EF2;
+}
+
+.card-project.-three {
+  background-color: #1AAEDB;
+}
+
+.card-project.-four {
+  background-color: #241EF9;
+}
 
 /* MAIN-CAROUSEL */
 
@@ -316,6 +331,34 @@
     transform: rotate(180deg) translatex(12px);
   }
 
+  /* BUTTON-ARROW */
+
+.button-arrow {
+    background-color: #2f80ed;
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 0 #000;
+    cursor: pointer;
+  }
+  
+  .button-arrow .content {
+    display: none;
+  }
+  
+  .button-arrow::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-left: 28px solid #fff;
+    transform: translateX(5px);
+  }
+  
+  .button-arrow.-left::before {
+    transform: rotate(180deg) translatex(12px);
+  }
 
 /* NODE-CARD */
 
