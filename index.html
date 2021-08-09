@@ -17,11 +17,11 @@
         <header class="main-header">
             <img src="./assets/img/logo.png" alt="ShynAsiak">
             <nav>
-                <a class="main-action" href="#" lang="en">Skills</a>
-                <a class="main-action" href="#" lang="en">Projects</a>
-                <a class="main-action" href="#" lang="en">About</a>
-                <a class="main-action" href="#" lang="en">Contact</a>
-                <a class="main-button" href="#" lang="en">Download CV</a>
+                <a class="main-action" href="#skill" lang="en">Skills</a>
+                <a class="main-action" href="#projects" lang="en">Projects</a>
+                <a class="main-action" href="#about" lang="en">About</a>
+                <a class="main-action" href="#contact" lang="en">Contact</a>
+                <a class="main-button" href="https://drive.google.com/u/0/uc?id=1IF0blHuWvxrxtvLHYRh9WUOLucWq8xn3&export=download" lang="en">Download CV</a>
             </nav>
         </header>
         <section class="main-banner">
@@ -32,8 +32,8 @@
                 </div>
 
                 <div class="navigation">
-                    <a class="main-button" href="#" lang="en">Download CV</a>
-                    <a class="main-button" href="#" lang="en">Contact</a>
+                    <a class="main-button" href="https://drive.google.com/u/0/uc?id=1IF0blHuWvxrxtvLHYRh9WUOLucWq8xn3&export=download" lang="en">Download CV</a>
+                    <a class="main-button" href="#" onclick="window.open('https://mail.google.com/mail/u/0/?fs=1&to=thales.dev.flp@gmail.com&su=Entre%20em%20contato&body=Ol%C3%A1&bcc=&tf=cm')" lang="en">Contact</a>
                 </div> 
             </div> 
         </section>
@@ -41,12 +41,12 @@
         <section class="main-section">
             <h2 class="main-tittle -second">Skills</h2>
 
-            <div class="wrapper-skill">
+            <div class="wrapper-skill" id="skill">
                 <article class="skill">
                     <img class="icon" src="./assets/Skills/html5.png" alt="Logo do HTML5">
                     <div class="right">
                         <h3 class="tittle">HTML</h3>
-                        <progress class="progress-bar" max="100" value="40">40%</progress>
+                        <progress class="progress-bar" max="100" value="70">70%</progress>
                     </div>
                 </article>
 
@@ -54,7 +54,7 @@
                     <img class="icon" src="./assets/Skills/css3.png" alt="Logo do CSS3">
                     <div class="right">
                         <h3 class="tittle">CSS</h3>
-                        <progress class="progress-bar" max="100" value="40">40%</progress>
+                        <progress class="progress-bar" max="100" value="70">70%</progress>
                     </div>
                 </article>
 
@@ -62,29 +62,21 @@
                     <img class="icon" src="./assets/Skills/js.png" alt="Logo do JavaScript">
                     <div class="right">
                         <h3 class="tittle">JavaScript</h3>
-                        <progress class="progress-bar" max="100" value="30">30%</progress>
+                        <progress class="progress-bar" max="100" value="50">50%</progress>
                     </div>
                 </article>
 
                 <article class="skill">
-                    <img class="icon" src="./assets/Skills/react.png" alt="Logo do React">
+                    <img class="icon" src="./assets/Skills/vuejs.png" alt="Logo do Vuejs">
                     <div class="right">
-                        <h3 class="tittle">React</h3>
+                        <h3 class="tittle">VueJS</h3>
                         <progress class="progress-bar" max="100" value="20">20%</progress>
-                    </div>
-                </article>
-
-                <article class="skill">
-                    <img class="icon" src="./assets/Skills/nodejs.png" alt="Logo do NodeJS">
-                    <div class="right">
-                        <h3 class="tittle">NodeJS</h3>
-                        <progress class="progress-bar" max="100" value="15">15%</progress>
                     </div>
                 </article>
             </div>
         </section>
 
-        <section class="main-section -bgBlack">
+        <section class="main-section -bgBlack" id="projects">
             <h2 class="main-tittle -second">Projects</h2>
             <div class="wrapper-card">
                 <a href="https://thalesfelippe.github.io/jogo-da-velha-JS/">
@@ -110,7 +102,7 @@
             </div>
         </section>
 
-        <section class="main-section">
+        <section class="main-section" id="about">
             <h2 class="main-tittle -second">About</h2>
             <section class="main-carousel">
                 <button class="button-arrow -left"><span class="content">Left</span></button>
@@ -132,7 +124,7 @@
                 Today Junior Programmer at ArtLab, Thales has worked as a cashier in the FortAtacadista network, migrating to the Technology field, seeking to improve himself as a FrontEnd dev studying on his own and as he works. Thales also when not playing online or exchanging ideas with friends, seeks to create personal projects.            </p>
         </section>
 
-        <form class="main-form">
+        <form class="main-form" id="contact">
 
             <legend class="main-tittle -second">Contact</legend>
 
@@ -151,9 +143,6 @@
         <footer class="main-footer">
             <a class="action" href="https://www.linkedin.com/in/thales-felippe-9205761bb/" target="_blank">
                 <img src="./assets/Footer/linkedin.png" alt="Logo linkedin">
-            </a>
-            <a class="action" href="https://www.instagram.com/thales.flp/" target="_blank">
-                <img src="./assets/Footer/instagram.png" alt="Logo instagram">
             </a>
         </footer>
 
